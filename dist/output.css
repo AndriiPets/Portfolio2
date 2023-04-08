@@ -668,6 +668,14 @@ video {
   height: fit-content;
 }
 
+.h-1\/4 {
+  height: 25%;
+}
+
+.h-full {
+  height: 100%;
+}
+
 .w-5 {
   width: 1.25rem;
 }
