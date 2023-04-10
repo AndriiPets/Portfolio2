@@ -13,7 +13,7 @@
     <!--intro section-->
     <div class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-300 relative overflow-hidden">
         <!--navbar-->
-        <nav class="w-full fixed top-0 bg-white">
+        <nav class="w-full fixed top-0 bg-white z-50">
             <div class="container mx-auto py-5 px-5 flex justify-between items-center">
                 <div class="flex items-center gap-2">
                     <img class="w-8" src="./media/logo.png" />
@@ -76,17 +76,28 @@
     </div>
     <!--about-->
     <div>
-        <div class="container mx-auto">
+        <div class="container ml-20 mr-20 flex py-32 gap-20">
             <!--left-->
             <div class="relative">
-                <img class="h-1/4 absolute top-0 left-0" src="./media/dots.png" />
-                <div class="h-full rounded-full">
-                    <img src="./media/avatar.jfif" />
+                <img class="h-1/4 absolute top-0 left-0 -z-10" src="./media/dots.png" />
+                <div class="h-full rounded-full overflow-hidden scale-90">
+                    <img src="./media/avatar.png" />
                 </div>
             </div>
+        
             <!--right-->
+            <div class="my-auto flex flex-col gap-3">
+                <h1 class="text-indigo-600 font-bold">ABOUT ME</h1>
+                <h1 class="text-xl3 font-medium">Better design</h1>
+                <h1 class="text-xl3 font-medium">Better expirience</h1>
+                <p class="text-gray-400"> I design and build digital products. I'm also a multi-disciplinary
+                    maker with over 10 years of experiences in wide range of design
+                    disciplines.</p>
+                <h2 class="text-gray-400 font-medium h-1.5 rounded-md"></h2>
+            </div>
 
         </div>
+        
     </div>
     
     <script src="./app.js"></script>
